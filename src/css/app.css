@@ -14,21 +14,119 @@
     align-items: center
 
   }
+  .fig{
+    display: grid;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    top: 34rem;
+    left: 8rem;
+    border-radius: 20rem;
+    background-color: rgb(243, 168, 118);
+  }
+  .fig2{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    top: 2rem;
+    right: 3rem;
+   
+    border-radius: 15rem;
+    background-color: rgb(112, 28, 101);
+  }
+  .fig3{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    left: 30rem;
+    top: 10rem;
+    
+    border-radius: 10rem;
+    background-color: rgb(211, 191, 16);
+  }
+  .fig4{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    right: 35rem;
+    
+    border-radius: 10rem;
+    background-color: rgb(229, 4, 236);
+  }
+  .fig5{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    left:5rem;
+ 
+    
+    border-radius: 10rem;
+    background-color: rgb(47, 158, 37);
+  }
+  .fig6{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    top: 40rem;
+    left: 20rem;
+    
+    border-radius: 10rem;
+    background-color: rgb(3, 70, 214);
+  }
+  .fig7{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    right: 8rem;
+    top: 36rem;
+    border-radius: 10rem;
+    background-color: rgb(233, 233, 233);
+  }
+  .fig8{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+   right: 50rem;
+    top: 25rem;
+    border-radius: 10rem;
+    background-color: rgb(56, 14, 124);
+  }
+  .fig9{
+    display: grid;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    left: 1rem;
+    top: 30rem;
+    border-radius: 10rem;
+    background-color: rgb(41, 19, 19);
+  }
+
+
 
   form {
     display:block;
-    position:relative;
+    position:absolute;
     top: 10rem;
-    width: 22rem;
+    width: 42rem;
     height: 33rem;
     
    
-   
+   background: rgba(255,255,255, .05);
+   box-shadow: 00 10px rgba(0,0,0,0.25);
+   backdrop-filter: blur(10px);
+
     border-width: 1rem;
     border-style:inset;
     margin-block: 2rem;
     border-color: #8746db;
-   background-color:#2e1550;
    border-radius: 7rem;
   }
  
@@ -36,7 +134,7 @@
     display: block;
     position: relative;
     padding-bottom: 1.2rem;
-    width: 19rem;
+    width: 30rem;
     top: -5rem;
     height: 2.2rem;
    
@@ -47,15 +145,12 @@
     border-width: 0.2rem;
   
     text-align:center;
+    background: rgba(255,255,255, .05);
     border-color: rgb(107, 6, 240);
-    background-color: rgb(58, 18, 80);
+    box-shadow: 00 10px rgba(0,0,0,0.25);
     border-radius: 10rem;
   }
-  input:hover{
-    width: 20.3rem;
-    border-width: 0.2rem;
-    border-color: cornflowerblue;
-  }
+
 
 
   .file {
@@ -75,7 +170,7 @@
   
   
   .name {
-    width: 13rem;
+    width: 24rem;
     left: 5.5rem;
    margin: 1rem;
     font-size: x-large;
